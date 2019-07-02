@@ -1,47 +1,149 @@
-header {
-  min-height: 100vh;
-  margin-top: 55px;
-  background-image: url('https://wwwimage-secure.cbsstatic.com/thumbnails/photos/770xh/103340_d06880b.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-main {
-  scroll-behavior: smooth;
-}
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <h1>This is my page</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar
+                mattis nunc sed blandit libero volutpat. Facilisis leo vel fringilla est
+                ullamcorper eget nulla.
+            </p>
+            <a class="btn btn-primary" href="#portfolio" role="button">Read More</a>
+        </div>
+    </header>
+    <main>
+        <section id="portfolio" class="py-4">
+            <div class="container">
+                <h1 class="text-center">Portfolio</h1>
+                <div class="row">
+                    <div class="card portfolio-item">
+                        <img src="http://placekitten.com/300/200"
+                             class="card-img-top"
+                             alt="..." />
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Solar System</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card portfolio-item">
+                        <img src="http://placekitten.com/300/200"
+                             class="card-img-top"
+                             alt="..." />
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">MasterMind</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </p>
+                            <a href="https://codepen.io/DisplacedTexan/pen/ZZOLjv" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card portfolio-item">
+                        <img src="http://placekitten.com/300/200"
+                             class="card-img-top"
+                             alt="..." />
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card portfolio-item">
+                        <img src="http://placekitten.com/300/200"
+                             class="card-img-top"
+                             alt="..." />
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Solar System</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card portfolio-item">
+                        <img src="http://placekitten.com/300/200"
+                             class="card-img-top"
+                             alt="..." />
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">MasterMind</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </p>
+                            <a href="https://codepen.io/DisplacedTexan/pen/ZZOLjv" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card portfolio-item">
+                        <img src="http://placekitten.com/300/200"
+                             class="card-img-top"
+                             alt="..." />
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-section {
-  align-items: center;
-}
-
-.row {
-  margin: 0 !important;
-}
-
-#portfolio {
-  background-color: #699AD9;
-    color: white;
-  justify-content: center;
-}
-
-.portfolio-item {
-  width: 30%;
-  margin: 10px;
-}
-
-#about {
-  background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/4-ocean.jpg');
-  color: white;
-  min-height: 75vh;
-}
-
-#about img {
-  border-radius: 50%;
-  height:125%;
-  width:100%
-}
+        </section>
+        <section id="about" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <img src="https://shop.legalseafoods.com/images/popup/Lobster_Chowder102717.jpg" alt="" id="about-pic" />
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h2>Your Name Here</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh
+                            cras pulvinar mattis nunc sed blandit libero volutpat. Facilisis leo
+                            vel fringilla est ullamcorper eget nulla.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
