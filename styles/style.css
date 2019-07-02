@@ -1,0 +1,47 @@
+header {
+    min-height: 100vh;
+    margin-top: 55px;
+    background-image: url('https://wwwimage-secure.cbsstatic.com/thumbnails/photos/770xh/103340_d06880b.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main {
+    scroll-behavior: smooth;
+}
+
+section {
+    align-items: center;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+#portfolio {
+    background-color: #699AD9;
+    color: white;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin: 10px;
+}
+
+#about {
+    background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/4-ocean.jpg');
+    color: white;
+    min-height: 75vh;
+}
+
+    #about img {
+        border-radius: 50%;
+        height: 125%;
+        width: 100%
+    }
